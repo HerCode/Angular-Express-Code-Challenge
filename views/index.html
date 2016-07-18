@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="routeApp">
+  <head>
+    <meta content="content" charset="utf-8">
+    <title>AngularJS - Express Assessment</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+    <script type="text/javascript" src="vendors/angular/angular.min.js"></script>
+    <script type="text/javascript" src="vendors/express/express.js"></script>
+    <script src="scripts/routeApp.module.js"></script>
+    <script src="scripts/routeApp.config.js"></script>
+    <script src="scripts/DataService.js"></script>
+    <script src="scripts/StudentController.js"></script>
+    <script src="app.js"></script>
+    <base href="/" />
+  </head>
+  <body>
+    <div class="container-fluid">
+
+
+    <h1>AngularJS Express Assessment</h1>
+    <!-- {{3 + 3}} -->
+
+    <a href="/student"></a><button class="btn btn-success btn-lg" id="students">Display Students</button>
+
+    <div ng-view>
+
+    </div>
+    </div>
+  </body>
+</html>
